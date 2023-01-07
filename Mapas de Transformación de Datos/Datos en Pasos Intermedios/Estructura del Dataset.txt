@@ -1,0 +1,87 @@
+Field Number;Field Label;Field Name;Variable Kind
+1;MOSTYPE;Customer Subtype;Categorical
+2;MAANTHUI;Number of houses;Discrete Numerical
+3;MGEMOMV;Avg size househol;Discrete Numerical
+4;MGEMLEEF;Avg age;Categorical
+5;MOSHOOFD;Customer main type;Categorical
+6;MGODRK;Roman catholic;Categorical
+7;MGODPR;Protestant;Categorical
+8;MGODOV;Other religion;Categorical
+9;MGODGE;No religion;Discrete Numerical
+10;MRELGE;Married;Discrete Numerical
+11;MRELSA;Living together;Discrete Numerical
+12;MRELOV;Other relation;Discrete Numerical
+13;MFALLEEN;Singles;Discrete Numerical
+14;MFGEKIND;Household without children;Discrete Numerical
+15;MFWEKIND;Household with children;Discrete Numerical
+16;MOPLHOOG;High level education;Discrete Numerical
+17;MOPLMIDD;Medium level education;Discrete Numerical
+18;MOPLLAAG;Lower level education;Discrete Numerical
+19;MBERHOOG;High status;Discrete Numerical
+20;MBERZELF;Entrepreneur;Discrete Numerical
+21;MBERBOER;Farmer;Discrete Numerical
+22;MBERMIDD;Middle management;Discrete Numerical
+23;MBERARBG;Skilled labourers;Discrete Numerical
+24;MBERARBO;Unskilled labourers;Discrete Numerical
+25;MSKA;Social class A;Discrete Numerical
+26;MSKB1;Social class B1;Discrete Numerical
+27;MSKB2;Social class B2;Discrete Numerical
+28;MSKC;Social class C;Discrete Numerical
+29;MSKD;Social class D;Discrete Numerical
+30;MHHUUR;Rented house;Discrete Numerical
+31;MHKOOP;Home owners;Discrete Numerical
+32;MAUT1;1 car;Discrete Numerical
+33;MAUT2;2 cars;Discrete Numerical
+34;MAUT0;No car;Discrete Numerical
+35;MZFONDS;National Health Service;Discrete Numerical
+36;MZPART;Private health insurance;Discrete Numerical
+37;MINKM30;Income <30.000;Discrete Numerical
+38;MINK3045;Income 30-45.000;Discrete Numerical
+39;MINK4575;Income 45-75.000;Discrete Numerical
+40;MINK7512;Income 75-122.000;Discrete Numerical
+41;MINK123M;Income >123.000;Discrete Numerical
+42;MINKGEM;Average income;Discrete Numerical
+43;MKOOPKLA;Purchasing power class;Discrete Numerical
+44;PWAPART;Contribution private third party insurance;Categorical
+45;PWABEDR;Contribution third party insurance (firms);Categorical
+46;PWALAND;Contribution third party insurane (agriculture);Categorical
+47;PPERSAUT;Contribution car policies;Categorical
+48;PBESAUT;Contribution delivery van policies;Categorical
+49;PMOTSCO;Contribution motorcycle/scooter policies;Categorical
+50;PVRAAUT;Contribution lorry policies;Categorical
+51;PAANHANG;Contribution trailer policies;Categorical
+52;PTRACTOR;Contribution tractor policies;Categorical
+53;PWERKT;Contribution agricultural machines policies;Categorical 
+54;PBROM;Contribution moped policies;Categorical
+55;PLEVEN;Contribution life insurances;Categorical
+56;PPERSONG;Contribution private accident insurance policies;Categorical
+57;PGEZONG;Contribution family accidents insurance policies;Categorical
+58;PWAOREG;Contribution disability insurance policies;Categorical
+59;PBRAND;Contribution fire policies;Categorical
+60;PZEILPL;Contribution surfboard policies;Categorical
+61;PPLEZIER;Contribution boat policies;Categorical
+62;PFIETS;Contribution bicycle policies;Categorical
+63;PINBOED;Contribution property insurance policies;Categorical
+64;PBYSTAND;Contribution social security insurance policies;Categorical
+65;AWAPART;Number of private third party insurance;Discrete Numerical
+66;AWABEDR;Number of third party insurance (firms);Discrete Numerical
+67;AWALAND;Number of third party insurance (agriculture);Discrete Numerical
+68;APERSAUT;Number of car policies;Discrete Numerical
+69;ABESAUT;Number of delivery van policies;Discrete Numerical
+70;AMOTSCO;Number of motorcycle/scooter policies;Discrete Numerical
+71;AVRAAUT;Number of lorry policies;Discrete Numerical
+72;AAANHANG;Number of trailer policies;Discrete Numerical
+73;ATRACTOR;Number of tractor policies;Discrete Numerical
+74;AWERKT;Number of agricultural machines policies;Discrete Numerical
+75;ABROM;Number of moped policies;Discrete Numerical
+76;ALEVEN;Number of life insurances;Discrete Numerical
+77;APERSONG;Number of private accident insurance policies;Discrete Numerical
+78;AGEZONG;Number of family accidents insurance policies;Discrete Numerical
+79;AWAOREG;Number of disability insurance policies;Discrete Numerical
+80;ABRAND;Number of fire policies;Discrete Numerical
+81;AZEILPL;Number of surfboard policies;Discrete Numerical
+82;APLEZIER;Number of boat policies;Discrete Numerical
+83;AFIETS;Number of bicycle policies;Discrete Numerical
+84;AINBOED;Number of property insurance policies;Discrete Numerical
+85;ABYSTAND;Number of social security insurance policies;Discrete Numerical
+86;CARAVAN;Number of mobile home policies;Discrete Numerical
