@@ -443,11 +443,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Archivo del Dataset sin Etiquetar</from>
-      <to>Adición de Columna con Respectivos Tipos de Subclientes</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Archivo de Rangos de Edad</from>
       <to>Adición de Columna con Respectivos Rangos de Edad</to>
       <enabled>Y</enabled>
@@ -828,11 +823,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Adición de Columna con Respectivos Rangos de Contribución a Seguros [Seguridad Social]</from>
-      <to>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social]</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Archivo de Rangos de Contribución a Seguros 21</from>
       <to>Adición de Columna con Respectivos Rangos de Contribución a Seguros [Seguridad Social]</to>
       <enabled>Y</enabled>
@@ -843,7 +833,27 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social]</from>
+      <from>Archivo del Dataset sin Etiquetar</from>
+      <to>Creación de Llave Artificial para Registros</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Creación de Llave Artificial para Registros</from>
+      <to>Adición de Columna con Respectivos Tipos de Subclientes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Adición de Columna con Respectivos Rangos de Contribución a Seguros [Seguridad Social]</from>
+      <to>Ordenamiento de Columnas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Ordenamiento de Columnas</from>
+      <to>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social] y Selección de Columnas Necesarias</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social] y Selección de Columnas Necesarias</from>
       <to>Archivo del Dataset Etiquetado</to>
       <enabled>Y</enabled>
     </hop>
@@ -954,7 +964,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>880</xloc>
       <yloc>2368</yloc>
       <draw>Y</draw>
     </GUI>
@@ -991,7 +1001,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>896</xloc>
       <yloc>2464</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1065,7 +1075,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>896</xloc>
       <yloc>1312</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1102,7 +1112,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>912</xloc>
       <yloc>1696</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1139,7 +1149,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>912</xloc>
       <yloc>2080</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1176,7 +1186,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>896</xloc>
       <yloc>2176</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1213,7 +1223,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>912</xloc>
       <yloc>1216</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1398,7 +1408,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>912</xloc>
       <yloc>2560</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1472,7 +1482,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>912</xloc>
       <yloc>2272</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1509,7 +1519,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>896</xloc>
       <yloc>1504</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1546,7 +1556,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>880</xloc>
       <yloc>1408</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1620,7 +1630,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
+      <xloc>864</xloc>
       <yloc>1792</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1694,7 +1704,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>784</xloc>
+      <xloc>800</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1842,7 +1852,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>464</xloc>
+      <xloc>752</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2082,7 +2092,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1488</xloc>
       <yloc>1600</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2202,7 +2212,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1392</xloc>
       <yloc>1696</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2322,7 +2332,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1312</xloc>
       <yloc>1792</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2682,7 +2692,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1392</xloc>
       <yloc>2080</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2802,7 +2812,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1360</xloc>
       <yloc>2176</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2922,7 +2932,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1392</xloc>
       <yloc>2272</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3042,7 +3052,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1344</xloc>
       <yloc>2368</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3162,7 +3172,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1360</xloc>
       <yloc>2464</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3402,7 +3412,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1392</xloc>
       <yloc>2560</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4002,7 +4012,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1392</xloc>
       <yloc>1216</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4122,7 +4132,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1360</xloc>
       <yloc>1312</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4242,7 +4252,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1344</xloc>
       <yloc>1408</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4362,7 +4372,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
+      <xloc>1360</xloc>
       <yloc>1504</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4607,7 +4617,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1264</xloc>
+      <xloc>1280</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -6512,7 +6522,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
+      <xloc>992</xloc>
       <yloc>2752</yloc>
       <draw>Y</draw>
     </GUI>
@@ -8352,6 +8362,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -8802,6 +8816,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -9274,6 +9292,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -9752,6 +9774,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -10170,6 +10196,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -10598,6 +10628,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -11042,6 +11076,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -11502,6 +11540,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -11968,6 +12010,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -12390,6 +12436,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -12832,6 +12882,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -13244,6 +13298,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -13652,6 +13710,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -14054,6 +14116,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -14536,6 +14602,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -14553,10 +14623,10 @@
     </GUI>
   </step>
   <step>
-    <name>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social]</name>
+    <name>Renombrado de Columna de Rango de Contribución a Seguros [Seguridad Social] y Selección de Columnas Necesarias</name>
     <type>SelectValues</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -15031,8 +15101,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
-      <yloc>2656</yloc>
+      <xloc>464</xloc>
+      <yloc>2752</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -15488,6 +15558,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -15924,6 +15998,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -16356,6 +16434,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -16770,6 +16852,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -17220,6 +17306,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -17602,6 +17692,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -17994,6 +18088,10 @@
       </field>
       <field>
         <name>Phase</name>
+        <rename/>
+      </field>
+      <field>
+        <name>rowId</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -18396,6 +18494,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -18792,6 +18894,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -19180,6 +19286,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -19560,6 +19670,10 @@
         <name>Phase</name>
         <rename/>
       </field>
+      <field>
+        <name>rowId</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -19571,8 +19685,85 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
+      <xloc>1136</xloc>
       <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Creación de Llave Artificial para Registros</name>
+    <type>Sequence</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <valuename>rowId</valuename>
+    <use_database>N</use_database>
+    <connection/>
+    <schema/>
+    <seqname>SEQ_</seqname>
+    <use_counter>Y</use_counter>
+    <counter_name/>
+    <start_at>1</start_at>
+    <increment_by>1</increment_by>
+    <max_value>999999999</max_value>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Ordenamiento de Columnas</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>rowId</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>2656</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
