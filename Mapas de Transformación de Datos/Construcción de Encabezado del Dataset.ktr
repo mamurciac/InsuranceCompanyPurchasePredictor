@@ -439,26 +439,26 @@
   <order>
     <hop>
       <from>Archivo de Estructura del Dataset</from>
-      <to>Selección de Columna de Campos 1</to>
+      <to>Selección de Columnas Necesarias 1</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Selección de Columna de Campos 1</from>
+      <from>Selección de Columnas Necesarias 1</from>
       <to>Adición de Columna para Agrupación</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Adición de Columna para Agrupación</from>
-      <to>Concatenación de todos los Nombres de Columna</to>
+      <to>Concatenación de los Nombres de Columna</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Concatenación de todos los Nombres de Columna</from>
-      <to>Selección de Columna de Campos 2</to>
+      <from>Concatenación de los Nombres de Columna</from>
+      <to>Selección de Columnas Necesarias 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Selección de Columna de Campos 2</from>
+      <from>Selección de Columnas Necesarias 2</from>
       <to>Reemplazo de Separador de Columnas</to>
       <enabled>Y</enabled>
     </hop>
@@ -503,7 +503,7 @@
     </remotesteps>
     <GUI>
       <xloc>656</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -571,8 +571,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>432</xloc>
-      <yloc>160</yloc>
+      <xloc>416</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -722,12 +722,12 @@
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Concatenación de todos los Nombres de Columna</name>
+    <name>Concatenación de los Nombres de Columna</name>
     <type>GroupBy</type>
     <description/>
     <distribute>Y</distribute>
@@ -767,8 +767,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
-      <yloc>64</yloc>
+      <xloc>960</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -806,13 +806,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>160</yloc>
+      <xloc>688</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Selección de Columna de Campos 1</name>
+    <name>Selección de Columnas Necesarias 1</name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -825,6 +825,7 @@
     <fields>
       <field>
         <name>Field_Name</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -838,12 +839,12 @@
     </remotesteps>
     <GUI>
       <xloc>384</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Selección de Columna de Campos 2</name>
+    <name>Selección de Columnas Necesarias 2</name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -856,6 +857,7 @@
     <fields>
       <field>
         <name>Field_Name</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -868,8 +870,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
-      <yloc>160</yloc>
+      <xloc>960</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

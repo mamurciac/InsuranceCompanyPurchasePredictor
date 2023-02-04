@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Reconstrucción del Dataset [Datos sin Etiquetar]</name>
+    <name>Reconstrucción del Dataset [Solo Valores Numéricos]</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -469,11 +469,11 @@
     </hop>
     <hop>
       <from>Selección de Columna de Registros</from>
-      <to>Archivo del Dataset sin Etiquetar</to>
+      <to>Archivo del Dataset [Solo Valores Numéricos]</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Archivo de Dataset [Prueba]</from>
+      <from>Archivo de Dataset Original [Prueba]</from>
       <to>Adición de Columna para Agrupación 3</to>
       <enabled>Y</enabled>
     </hop>
@@ -527,8 +527,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>80</yloc>
+      <xloc>896</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -566,8 +566,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>160</yloc>
+      <xloc>896</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -605,8 +605,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>240</yloc>
+      <xloc>896</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -710,13 +710,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>208</xloc>
-      <yloc>160</yloc>
+      <xloc>304</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Archivo de Dataset [Prueba]</name>
+    <name>Archivo de Dataset Original [Prueba]</name>
     <type>TextFileInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -815,8 +815,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>544</xloc>
-      <yloc>240</yloc>
+      <xloc>624</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -920,13 +920,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>528</xloc>
-      <yloc>80</yloc>
+      <xloc>624</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Archivo del Dataset sin Etiquetar</name>
+    <name>Archivo del Dataset [Solo Valores Numéricos]</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -950,7 +950,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Dataset sin Etiquetar</name>
+      <name>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Datos en Pasos Intermedios/Dataset sin Etiquetar</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -989,8 +989,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>112</xloc>
-      <yloc>320</yloc>
+      <xloc>160</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1075,8 +1075,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>320</yloc>
+      <xloc>800</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1117,8 +1117,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1024</xloc>
-      <yloc>320</yloc>
+      <xloc>1120</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1156,8 +1156,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>160</yloc>
+      <xloc>608</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1187,8 +1187,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>320</yloc>
+      <xloc>448</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1222,8 +1222,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1024</xloc>
-      <yloc>160</yloc>
+      <xloc>1120</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

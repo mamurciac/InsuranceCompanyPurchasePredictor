@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Preparación de Datos de Prueba</name>
+    <name>Preparación del Dataset de Prueba</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -468,11 +469,11 @@
     </hop>
     <hop>
       <from>Concatenación de Columnas de Entrada y Salida</from>
-      <to>Selección de Columna de Registros</to>
+      <to>Selección de Columnas Necesarias</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Selección de Columna de Registros</from>
+      <from>Selección de Columnas Necesarias</from>
       <to>Archivo de Dataset [Prueba]</to>
       <enabled>Y</enabled>
     </hop>
@@ -510,7 +511,7 @@
     </remotesteps>
     <GUI>
       <xloc>832</xloc>
-      <yloc>144</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -615,7 +616,7 @@
     </remotesteps>
     <GUI>
       <xloc>208</xloc>
-      <yloc>48</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -720,7 +721,7 @@
     </remotesteps>
     <GUI>
       <xloc>176</xloc>
-      <yloc>144</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -789,7 +790,7 @@
     </remotesteps>
     <GUI>
       <xloc>288</xloc>
-      <yloc>240</yloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -875,7 +876,7 @@
     </remotesteps>
     <GUI>
       <xloc>832</xloc>
-      <yloc>240</yloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -910,7 +911,7 @@
     </remotesteps>
     <GUI>
       <xloc>832</xloc>
-      <yloc>48</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -945,7 +946,7 @@
     </remotesteps>
     <GUI>
       <xloc>512</xloc>
-      <yloc>144</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -984,12 +985,12 @@
     </remotesteps>
     <GUI>
       <xloc>528</xloc>
-      <yloc>48</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Selección de Columna de Registros</name>
+    <name>Selección de Columnas Necesarias</name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -1002,6 +1003,7 @@
     <fields>
       <field>
         <name>Field_000</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1015,7 +1017,7 @@
     </remotesteps>
     <GUI>
       <xloc>528</xloc>
-      <yloc>240</yloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
