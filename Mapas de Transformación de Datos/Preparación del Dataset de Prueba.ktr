@@ -1003,7 +1003,6 @@
     <fields>
       <field>
         <name>Field_000</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>

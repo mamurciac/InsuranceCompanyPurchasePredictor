@@ -306,7 +306,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>176</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -345,17 +345,17 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>352</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Reconstrucción del Dataset [Datos sin Etiquetar]</name>
+      <name>Reconstrucción del Dataset [Solo Valores Numéricos]</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Reconstrucción del Dataset [Datos sin Etiquetar].ktr</filename>
+      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Reconstrucción del Dataset [Solo Valores Numéricos].ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -384,17 +384,17 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>624</xloc>
-      <yloc>192</yloc>
+      <yloc>160</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Preparación de Datos de Prueba</name>
+      <name>Preparación del Dataset de Prueba</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Preparación de Datos de Prueba.ktr</filename>
+      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Preparación del Dataset de Prueba.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -423,7 +423,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>624</xloc>
-      <yloc>64</yloc>
+      <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -435,17 +435,17 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>48</xloc>
-      <yloc>192</yloc>
+      <yloc>160</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Reconstrucción del Dataset [Datos Etiquetados]</name>
+      <name>Reconstrucción del Dataset [Valores Completos]</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Reconstrucción del Dataset [Datos Etiquetados].ktr</filename>
+      <filename>C:/Users/Michael/Documents/InsuranceCompanyPurchasePredictor/Mapas de Transformación de Datos/Reconstrucción del Dataset [Valores Completos].ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -474,7 +474,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>272</xloc>
-      <yloc>192</yloc>
+      <yloc>160</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -490,7 +490,7 @@
     </hop>
     <hop>
       <from>Construcción de Encabezado del Dataset</from>
-      <to>Preparación de Datos de Prueba</to>
+      <to>Preparación del Dataset de Prueba</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -498,8 +498,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Preparación de Datos de Prueba</from>
-      <to>Reconstrucción del Dataset [Datos sin Etiquetar]</to>
+      <from>Preparación del Dataset de Prueba</from>
+      <to>Reconstrucción del Dataset [Solo Valores Numéricos]</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -507,8 +507,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Reconstrucción del Dataset [Datos sin Etiquetar]</from>
-      <to>Reconstrucción del Dataset [Datos Etiquetados]</to>
+      <from>Reconstrucción del Dataset [Solo Valores Numéricos]</from>
+      <to>Reconstrucción del Dataset [Valores Completos]</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -516,7 +516,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Reconstrucción del Dataset [Datos Etiquetados]</from>
+      <from>Reconstrucción del Dataset [Valores Completos]</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
